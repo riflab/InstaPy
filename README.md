@@ -8,4 +8,4 @@ docker build -t riflab/instapy .
 arif.darmawan@riflab.com
 
 # Credit
-[RifLab](www.riflab.com)
+RifLab - [www.riflab.com](www.riflab.com)
