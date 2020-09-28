@@ -6,7 +6,7 @@ RUN apt-get update \
 	&& apt-get install -y python3 python3-pip \
 	&& pip3 install instapy \
 	&& apt-get install -y vim \ 
-	# && sudo apt-get install -y firefox
+	# && sudo apt-get install -y 35 6 firefox
 
 COPY quickstart.py /.
 
