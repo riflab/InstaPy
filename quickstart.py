@@ -1,5 +1,5 @@
 """
-This template is written by @zackvega
+This template is written by arif.darmawan@riflab.com
 What does this quickstart script aim to do?
 - This is my simple but effective script.
 """
@@ -13,14 +13,15 @@ import sys
 insta_username = sys.argv[1]
 insta_password = sys.argv[2]
 
-ammount_number = 10
-userTarget = ['zaidulakbar']
+ammount_number = 2 
+userTarget = ['zaidulakbar', sys.argv[1]]
+# userTarget = ['khalidbasalamahofficial', 'madu.abuhafs']
 
 def job():
     session = InstaPy(username=insta_username, password=insta_password, headless_browser=True, multi_logs=True)
     with smart_run(session):
         # general settings
-        session.set_relationship_bounds(enabled=True,
+        session.set_relationship_bounds(enabled=False,
                                         potency_ratio=None,
                                         delimit_by_numbers=True,
                                         max_followers=6000,
@@ -40,13 +41,13 @@ def job():
                                   peak_server_calls_hourly=None,
                                   peak_server_calls_daily=4700)
 
-        session.set_user_interact(amount=ammount_number, randomize=True, percentage=50)
-        session.set_do_follow(enabled=False, percentage=70)
-        session.set_do_like(enabled=True, percentage=70)
-        session.set_comments(['Assalamualaikum... Sehat selalu'])
-        session.set_do_comment(enabled=True, percentage=80)
-        session.interact_user_followers(userTarget, amount=ammount_number, randomize=True)
-        session.interact_user_following(userTarget, amount=ammount_number, randomize=True)
+        session.set_user_interact(amount=ammount_number, randomize=True, percentage=80)
+        session.set_do_follow(enabled=False, percentage= 70)
+        session.set_do_like(enabled=True, percentage= 100)
+        session.set_comments(['Assalamualaikum... Sehat selalu','Assalamualaikum'])
+        session.set_do_comment(enabled=True, percentage= 60)
+        session.interact_user_followers(userTarget, amount=ammount_number*10, randomize=True)
+        session.interact_user_following(userTarget, amount=ammount_number*10, randomize=True)
         # unfollow activity
         # session.unfollow_users(amount=ammount_number, nonFollowers=True, style="RANDOM", unfollow_after=42 * 60 * 60, sleep_delay=300)
         # follow activity
@@ -62,6 +63,15 @@ def job():
 
 while True:
     # schedule.run_pending()
-    job()
-    time.sleep(60*60*2)
+    try:
+        job()
+        a = 60*60*1
+    except:
+        a = 60
+    print()
+    print()
+    print('Istirahat dulu bos ' + str(a) + ' detik')
+    print()
+    print()
+    time.sleep(a)
 
