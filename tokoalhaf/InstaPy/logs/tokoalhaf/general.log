@@ -1,0 +1,59 @@
+INFO [2020-09-28 23:07:13] [tokoalhaf]  Session started!
+INFO [2020-09-28 23:07:13] [tokoalhaf]  -- Connection Checklist [1/2] (Internet Connection Status)
+INFO [2020-09-28 23:07:18] [tokoalhaf]  - Internet Connection Status: ok
+INFO [2020-09-28 23:07:18] [tokoalhaf]  - Current IP is "180.244.235.249" and it's from "Indonesia/ID"
+INFO [2020-09-28 23:07:18] [tokoalhaf]  -- Connection Checklist [2/2] (Hide Selenium Extension)
+INFO [2020-09-28 23:07:18] [tokoalhaf]  - window.navigator.webdriver response: None
+INFO [2020-09-28 23:07:18] [tokoalhaf]  - Hide Selenium Extension: ok
+INFO [2020-09-28 23:08:11] [tokoalhaf]  Timed out with failure while explicitly waiting until title contains 'Login' string!
+
+INFO [2020-09-28 23:08:43] [tokoalhaf]  Logged in successfully!
+INFO [2020-09-28 23:08:43] [tokoalhaf]  Saving account progress...
+INFO [2020-09-28 23:09:08] [tokoalhaf]  Starting to unfollow users..
+ERROR [2020-09-28 23:09:08] [tokoalhaf]  Error occurred while generating a user list from the followed pool!
+	b"[Errno 2] No such file or directory: 'D:\\\\git\\\\docinstapy\\\\tokoalhaf\\\\InstaPy\\\\logs\\\\tokoalhaf\\\\tokoalhaf_followedPool.csv'"
+INFO [2020-09-28 23:09:08] [tokoalhaf]  Unfollowing the users who do not follow back
+
+INFO [2020-09-28 23:09:08] [tokoalhaf]  Retrieving live `Followers` data of tokoalhaf at "full" range
+INFO [2020-09-28 23:11:23] [tokoalhaf]  Grabbed 678 usernames from `Followers` in 2.19 minutes
+INFO [2020-09-28 23:11:23] [tokoalhaf]  Stored `Followers` data at D:\git\docinstapy\tokoalhaf\InstaPy\logs\tokoalhaf\/relationship_data/tokoalhaf/followers/28-09-2020~full~678.json local file
+INFO [2020-09-28 23:11:23] [tokoalhaf]  Zz :[ time to take a good nap  ~sleeping 5.1 minutes
+INFO [2020-09-28 23:16:10] [tokoalhaf]  Yawn :] let's go!
+
+INFO [2020-09-28 23:16:10] [tokoalhaf]  Retrieving live `Following` data of tokoalhaf at "full" range
+INFO [2020-09-28 23:20:20] [tokoalhaf]  Queried too much! ~ sleeping a bit :>
+INFO [2020-09-28 23:32:46] [tokoalhaf]  Grabbed 5619 usernames from `Following` in 16.4 minutes
+INFO [2020-09-28 23:32:46] [tokoalhaf]  Stored `Following` data at D:\git\docinstapy\tokoalhaf\InstaPy\logs\tokoalhaf\/relationship_data/tokoalhaf/following/28-09-2020~full~5619.json local file
+INFO [2020-09-28 23:32:46] [tokoalhaf]  Zz :[ time to take a good nap  ~sleeping 2.3 minutes
+INFO [2020-09-28 23:35:40] [tokoalhaf]  Yawn :] let's go!
+
+INFO [2020-09-28 23:35:40] [tokoalhaf]  There are 5223 Nonfollowers of tokoalhaf  ~the users tokoalhaf is following WHO do not follow back
+
+INFO [2020-09-28 23:35:40] [tokoalhaf]  Stored Nonfollowers data at D:\git\docinstapy\tokoalhaf\InstaPy\logs\tokoalhaf\/relationship_data/tokoalhaf/nonfollowers/28-09-2020~[678-5619]~5223.json local file
+
+INFO [2020-09-28 23:35:40] [tokoalhaf]  Total 5223 users available to unfollow  ~not found in 'followedPool.csv': 5223  |  didn't pass `unfollow_after`: 0
+
+INFO [2020-09-28 23:35:40] [tokoalhaf]  Ongoing Unfollow [1/2]: now unfollowing 'b'kamaluddin762''...
+INFO [2020-09-28 23:36:16] [tokoalhaf]  Last unfollow is verified after reloading the page!
+INFO [2020-09-28 23:36:16] [tokoalhaf]  --> Unfollowed 'kamaluddin762'!
+INFO [2020-09-28 23:36:27] [tokoalhaf]  Ongoing Unfollow [2/2]: now unfollowing 'b'ananda_hasbianto''...
+INFO [2020-09-28 23:37:04] [tokoalhaf]  Last unfollow is verified after reloading the page!
+INFO [2020-09-28 23:37:04] [tokoalhaf]  --> Unfollowed 'ananda_hasbianto'!
+WARNING [2020-09-28 23:37:17] [tokoalhaf]  --> Total unfollows reached it's amount given 2
+
+INFO [2020-09-28 23:37:17] [tokoalhaf]  --> Total people unfollowed : 2
+
+INFO [2020-09-28 23:37:19] [tokoalhaf]  Sessional Live Report:
+	|> LIKED 0 images  |  ALREADY LIKED: 0
+	|> COMMENTED on 0 images
+	|> FOLLOWED 0 users  |  ALREADY FOLLOWED: 0
+	|> UNFOLLOWED 2 users
+	|> LIKED 0 comments
+	|> REPLIED to 0 comments
+	|> INAPPROPRIATE images: 0
+	|> NOT VALID users: 0
+	|> WATCHED 0 story(ies)  |  WATCHED 0 reel(s)
+
+On session start was FOLLOWING 5617 users & had 678 FOLLOWERS
+[Session lasted 30.42 minutes]
+INFO [2020-09-28 23:37:19] [tokoalhaf]  Session ended!

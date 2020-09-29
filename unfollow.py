@@ -7,6 +7,7 @@ What does this quickstart script aim to do?
 from instapy import InstaPy
 from instapy import smart_run
 from instapy import set_workspace
+# from instapy import Settings
 # import schedule
 import time
 import sys
@@ -15,25 +16,27 @@ import os
 insta_username = sys.argv[1]
 insta_password = sys.argv[2]
 
-ammount_number = 2 
-userTarget = ['zaidulakbar', sys.argv[1]]
+ammount_number = 20 
+# userTarget = ['zaidulakbar', sys.argv[1]]
 # userTarget = ['khalidbasalamahofficial', 'madu.abuhafs']
 
 workspace = os.getcwd()+"\\"+sys.argv[1]+"\\"
 set_workspace(workspace)
+# Settings.database_location = workspace + "\\db\\instapy_{}.db".format(insta_username)
+# set_workspace("D:\\git\\docinstapy\\")
 
 def job():
     session = InstaPy(username=insta_username, password=insta_password, headless_browser=True, multi_logs=True)
     with smart_run(session):
         # general settings
-        session.set_relationship_bounds(enabled=False,
-                                        potency_ratio=None,
-                                        delimit_by_numbers=True,
-                                        max_followers=6000,
-                                        max_following=3000,
-                                        min_followers=30,
-                                        min_following=30)
-
+        # session.set_relationship_bounds(enabled=False,
+        #                                 potency_ratio=None,
+        #                                 delimit_by_numbers=True,
+        #                                 max_followers=6000,
+        #                                 max_following=3000,
+        #                                 min_followers=30,
+        #                                 min_following=30)
+        
         session.set_quota_supervisor(enabled=True, sleep_after=["likes", "comments_d", "follows", "unfollows", "server_calls_h"], sleepyhead=True, stochastic_flow=True, notify_me=True,
                               peak_likes_hourly=20,
                               peak_likes_daily=150,
@@ -46,15 +49,16 @@ def job():
                                   peak_server_calls_hourly=None,
                                   peak_server_calls_daily=4700)
 
-        session.set_user_interact(amount=ammount_number, randomize=True, percentage=80)
-        session.set_do_follow(enabled=False, percentage= 70)
-        session.set_do_like(enabled=True, percentage= 100)
-        session.set_comments(['Assalamualaikum... Sehat selalu','Assalamualaikum'])
-        session.set_do_comment(enabled=True, percentage= 60)
-        session.interact_user_followers(userTarget, amount=ammount_number*10, randomize=True)
-        session.interact_user_following(userTarget, amount=ammount_number*10, randomize=True)
+        # session.set_user_interact(amount=ammount_number, randomize=True, percentage=80)
+        # session.set_do_follow(enabled=False, percentage= 70)
+        # session.set_do_like(enabled=True, percentage= 100)
+        # session.set_comments(['Assalamualaikum... Sehat selalu','Assalamualaikum'])
+        # session.set_do_comment(enabled=True, percentage= 60)
+        # session.interact_user_followers(userTarget, amount=ammount_number*10, randomize=True)
+        # session.interact_user_following(userTarget, amount=ammount_number*10, randomize=True)
         # unfollow activity
-        # session.unfollow_users(amount=ammount_number, nonFollowers=True, style="RANDOM", unfollow_after=42 * 60 * 60, sleep_delay=300)
+        session.set_dont_include(['arif.darma1', 'madu.abuhafs', 'umrahtravel.id','tokoalhaf','alhafpustaka','riflabcom','darmawanpropertindo','endahsofakomaladewi'])
+        session.unfollow_users(amount=ammount_number, nonFollowers=True, style="RANDOM", sleep_delay=300)
         # follow activity
         # session.follow_user_followers(['khalidbasalamahofficial'], amount=ammount_number, randomize=False, interact=True, sleep_delay=240)
         # Joining engagement pods

@@ -1,0 +1,488 @@
+INFO [2020-09-29 00:07:41] [umrahtravel.id]  Session started!
+INFO [2020-09-29 00:07:41] [umrahtravel.id]  -- Connection Checklist [1/2] (Internet Connection Status)
+INFO [2020-09-29 00:07:43] [umrahtravel.id]  - Internet Connection Status: ok
+INFO [2020-09-29 00:07:43] [umrahtravel.id]  - Current IP is "180.244.235.249" and it's from "Indonesia/ID"
+INFO [2020-09-29 00:07:44] [umrahtravel.id]  -- Connection Checklist [2/2] (Hide Selenium Extension)
+INFO [2020-09-29 00:07:44] [umrahtravel.id]  - window.navigator.webdriver response: None
+INFO [2020-09-29 00:07:44] [umrahtravel.id]  - Hide Selenium Extension: ok
+INFO [2020-09-29 00:08:33] [umrahtravel.id]  Timed out with failure while explicitly waiting until title contains 'Login' string!
+
+INFO [2020-09-29 00:09:01] [umrahtravel.id]  Logged in successfully!
+INFO [2020-09-29 00:09:01] [umrahtravel.id]  Saving account progress...
+INFO [2020-09-29 00:09:17] [umrahtravel.id]  Starting to unfollow users..
+ERROR [2020-09-29 00:09:17] [umrahtravel.id]  Error occurred while generating a user list from the followed pool!
+	b"[Errno 2] No such file or directory: 'D:\\\\git\\\\docinstapy\\\\umrahtravel.id\\\\InstaPy\\\\logs\\\\umrahtravel.id\\\\umrahtravel.id_followedPool.csv'"
+INFO [2020-09-29 00:09:17] [umrahtravel.id]  Unfollowing the users who do not follow back
+
+INFO [2020-09-29 00:09:17] [umrahtravel.id]  Retrieving live `Followers` data of umrahtravel.id at "full" range
+INFO [2020-09-29 00:09:33] [umrahtravel.id]  Grabbed 273 usernames from `Followers` in 13.25 seconds
+INFO [2020-09-29 00:09:33] [umrahtravel.id]  Stored `Followers` data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/followers/29-09-2020~full~273.json local file
+INFO [2020-09-29 00:09:33] [umrahtravel.id]  Zz :[ time to take a good nap  ~sleeping 30.0 seconds
+INFO [2020-09-29 00:10:12] [umrahtravel.id]  Yawn :] let's go!
+
+INFO [2020-09-29 00:10:12] [umrahtravel.id]  Retrieving live `Following` data of umrahtravel.id at "full" range
+INFO [2020-09-29 00:11:50] [umrahtravel.id]  Grabbed 1621 usernames from `Following` in 1.52 minutes
+INFO [2020-09-29 00:11:50] [umrahtravel.id]  Stored `Following` data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/following/29-09-2020~full~1621.json local file
+INFO [2020-09-29 00:11:50] [umrahtravel.id]  Zz :[ time to take a good nap  ~sleeping 3.3 minutes
+INFO [2020-09-29 00:14:58] [umrahtravel.id]  Yawn :] let's go!
+
+INFO [2020-09-29 00:14:58] [umrahtravel.id]  There are 1513 Nonfollowers of umrahtravel.id  ~the users umrahtravel.id is following WHO do not follow back
+
+INFO [2020-09-29 00:14:58] [umrahtravel.id]  Stored Nonfollowers data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/nonfollowers/29-09-2020~[273-1621]~1513.json local file
+
+INFO [2020-09-29 00:14:58] [umrahtravel.id]  Total 1513 users available to unfollow  ~not found in 'followedPool.csv': 1513  |  didn't pass `unfollow_after`: 0
+
+INFO [2020-09-29 00:14:58] [umrahtravel.id]  Ongoing Unfollow [1/20]: now unfollowing 'b'ali_alghifari27''...
+INFO [2020-09-29 00:15:37] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:15:37] [umrahtravel.id]  --> Unfollowed 'ali_alghifari27'!
+INFO [2020-09-29 00:15:46] [umrahtravel.id]  Ongoing Unfollow [2/20]: now unfollowing 'b'royalkarimunjawa_tour''...
+INFO [2020-09-29 00:16:22] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:16:22] [umrahtravel.id]  --> Unfollowed 'royalkarimunjawa_tour'!
+INFO [2020-09-29 00:16:32] [umrahtravel.id]  Ongoing Unfollow [3/20]: now unfollowing 'b'inikataku28''...
+INFO [2020-09-29 00:17:10] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:17:10] [umrahtravel.id]  --> Unfollowed 'inikataku28'!
+INFO [2020-09-29 00:17:22] [umrahtravel.id]  Ongoing Unfollow [4/20]: now unfollowing 'b'_kelvinarisandy''...
+INFO [2020-09-29 00:17:58] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:17:58] [umrahtravel.id]  --> Unfollowed '_kelvinarisandy'!
+INFO [2020-09-29 00:18:08] [umrahtravel.id]  Ongoing Unfollow [5/20]: now unfollowing 'b'daulay_iwan''...
+INFO [2020-09-29 00:18:44] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:18:44] [umrahtravel.id]  --> Unfollowed 'daulay_iwan'!
+INFO [2020-09-29 00:18:55] [umrahtravel.id]  Ongoing Unfollow [6/20]: now unfollowing 'b'unyil027_''...
+INFO [2020-09-29 00:19:33] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:19:33] [umrahtravel.id]  --> Unfollowed 'unyil027_'!
+INFO [2020-09-29 00:19:47] [umrahtravel.id]  Ongoing Unfollow [7/20]: now unfollowing 'b'iismulyawati24''...
+INFO [2020-09-29 00:20:22] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:20:22] [umrahtravel.id]  --> Unfollowed 'iismulyawati24'!
+INFO [2020-09-29 00:20:31] [umrahtravel.id]  Ongoing Unfollow [8/20]: now unfollowing 'b'stennaaaaa''...
+INFO [2020-09-29 00:21:09] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:21:09] [umrahtravel.id]  --> Unfollowed 'stennaaaaa'!
+INFO [2020-09-29 00:21:19] [umrahtravel.id]  Ongoing Unfollow [9/20]: now unfollowing 'b'nakamoevoto''...
+INFO [2020-09-29 00:21:56] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:21:56] [umrahtravel.id]  --> Unfollowed 'nakamoevoto'!
+INFO [2020-09-29 00:22:07] [umrahtravel.id]  Ongoing Unfollow [10/20]: now unfollowing 'b'jamaluddinazizhasibuan''...
+INFO [2020-09-29 00:22:44] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:22:44] [umrahtravel.id]  --> Unfollowed 'jamaluddinazizhasibuan'!
+INFO [2020-09-29 00:22:57] [umrahtravel.id]  Unfollowed 10 new users  ~sleeping about 4.81 minutes
+
+INFO [2020-09-29 00:27:22] [umrahtravel.id]  Ongoing Unfollow [11/20]: now unfollowing 'b'banjoemas_rongsoek''...
+INFO [2020-09-29 00:27:59] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:27:59] [umrahtravel.id]  --> Unfollowed 'banjoemas_rongsoek'!
+INFO [2020-09-29 00:28:08] [umrahtravel.id]  Ongoing Unfollow [12/20]: now unfollowing 'b'muhammadjunaedy04''...
+INFO [2020-09-29 00:28:46] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:28:46] [umrahtravel.id]  --> Unfollowed 'muhammadjunaedy04'!
+INFO [2020-09-29 00:28:58] [umrahtravel.id]  Ongoing Unfollow [13/20]: now unfollowing 'b'meliandby''...
+INFO [2020-09-29 00:29:37] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:29:37] [umrahtravel.id]  --> Unfollowed 'meliandby'!
+INFO [2020-09-29 00:29:48] [umrahtravel.id]  Ongoing Unfollow [14/20]: now unfollowing 'b'rf.raihankids''...
+INFO [2020-09-29 00:30:29] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:30:29] [umrahtravel.id]  --> Unfollowed 'rf.raihankids'!
+INFO [2020-09-29 00:30:39] [umrahtravel.id]  Ongoing Unfollow [15/20]: now unfollowing 'b'melladr''...
+INFO [2020-09-29 00:31:16] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:31:16] [umrahtravel.id]  --> Unfollowed 'melladr'!
+INFO [2020-09-29 00:31:24] [umrahtravel.id]  Ongoing Unfollow [16/20]: now unfollowing 'b'm.s.hidayatullah.5496''...
+INFO [2020-09-29 00:32:01] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:32:01] [umrahtravel.id]  --> Unfollowed 'm.s.hidayatullah.5496'!
+INFO [2020-09-29 00:32:11] [umrahtravel.id]  Ongoing Unfollow [17/20]: now unfollowing 'b'bless.atkshop''...
+INFO [2020-09-29 00:32:51] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:32:51] [umrahtravel.id]  --> Unfollowed 'bless.atkshop'!
+INFO [2020-09-29 00:33:03] [umrahtravel.id]  Ongoing Unfollow [18/20]: now unfollowing 'b'difotorendi''...
+INFO [2020-09-29 00:33:41] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:33:41] [umrahtravel.id]  --> Unfollowed 'difotorendi'!
+INFO [2020-09-29 00:33:53] [umrahtravel.id]  Ongoing Unfollow [19/20]: now unfollowing 'b'natashaestelle''...
+INFO [2020-09-29 00:34:29] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:34:29] [umrahtravel.id]  --> Unfollowed 'natashaestelle'!
+INFO [2020-09-29 00:34:42] [umrahtravel.id]  Ongoing Unfollow [20/20]: now unfollowing 'b'jkt_hijrah''...
+INFO [2020-09-29 00:35:22] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 00:35:22] [umrahtravel.id]  --> Unfollowed 'jkt_hijrah'!
+WARNING [2020-09-29 00:35:33] [umrahtravel.id]  --> Total unfollows reached it's amount given 20
+
+INFO [2020-09-29 00:35:33] [umrahtravel.id]  --> Total people unfollowed : 20
+
+INFO [2020-09-29 00:35:36] [umrahtravel.id]  Sessional Live Report:
+	|> LIKED 0 images  |  ALREADY LIKED: 0
+	|> COMMENTED on 0 images
+	|> FOLLOWED 0 users  |  ALREADY FOLLOWED: 0
+	|> UNFOLLOWED 20 users
+	|> LIKED 0 comments
+	|> REPLIED to 0 comments
+	|> INAPPROPRIATE images: 0
+	|> NOT VALID users: 0
+	|> WATCHED 0 story(ies)  |  WATCHED 0 reel(s)
+
+On session start was FOLLOWING 1622 users & had 273 FOLLOWERS
+[Session lasted 28.26 minutes]
+INFO [2020-09-29 00:35:36] [umrahtravel.id]  Session ended!
+INFO [2020-09-29 01:35:36] [umrahtravel.id]  Workspace in use: "D:/git/docinstapy/umrahtravel.id/InstaPy"
+INFO [2020-09-29 01:35:44] [umrahtravel.id]  Session started!
+INFO [2020-09-29 01:35:44] [umrahtravel.id]  Quota Supervisor: just updated hourly peak rates in stochastic probablity!
+INFO [2020-09-29 01:35:44] [umrahtravel.id]  -- Connection Checklist [1/2] (Internet Connection Status)
+INFO [2020-09-29 01:35:47] [umrahtravel.id]  - Internet Connection Status: ok
+INFO [2020-09-29 01:35:47] [umrahtravel.id]  - Current IP is "180.244.235.249" and it's from "Indonesia/ID"
+INFO [2020-09-29 01:35:47] [umrahtravel.id]  -- Connection Checklist [2/2] (Hide Selenium Extension)
+INFO [2020-09-29 01:35:47] [umrahtravel.id]  - window.navigator.webdriver response: None
+INFO [2020-09-29 01:35:47] [umrahtravel.id]  - Hide Selenium Extension: ok
+INFO [2020-09-29 01:36:37] [umrahtravel.id]  Timed out with failure while explicitly waiting until title contains 'Login' string!
+
+INFO [2020-09-29 01:37:15] [umrahtravel.id]  Timed out with failure while explicitly waiting until visibility of element located!
+
+INFO [2020-09-29 01:37:22] [umrahtravel.id]  Sessional Live Report:
+	|> No any statistics to show
+
+
+[Session lasted 1.77 minutes]
+INFO [2020-09-29 01:37:22] [umrahtravel.id]  Session ended!
+INFO [2020-09-29 01:38:22] [umrahtravel.id]  Workspace in use: "D:/git/docinstapy/umrahtravel.id/InstaPy"
+INFO [2020-09-29 01:38:31] [umrahtravel.id]  Session started!
+INFO [2020-09-29 01:38:31] [umrahtravel.id]  -- Connection Checklist [1/2] (Internet Connection Status)
+INFO [2020-09-29 01:38:33] [umrahtravel.id]  - Internet Connection Status: ok
+INFO [2020-09-29 01:38:33] [umrahtravel.id]  - Current IP is "180.244.235.249" and it's from "Indonesia/ID"
+INFO [2020-09-29 01:38:33] [umrahtravel.id]  -- Connection Checklist [2/2] (Hide Selenium Extension)
+INFO [2020-09-29 01:38:33] [umrahtravel.id]  - window.navigator.webdriver response: None
+INFO [2020-09-29 01:38:33] [umrahtravel.id]  - Hide Selenium Extension: ok
+INFO [2020-09-29 01:38:53] [umrahtravel.id]  Logged in successfully!
+INFO [2020-09-29 01:38:53] [umrahtravel.id]  Saving account progress...
+INFO [2020-09-29 01:39:07] [umrahtravel.id]  Starting to unfollow users..
+ERROR [2020-09-29 01:39:07] [umrahtravel.id]  Error occurred while generating a user list from the followed pool!
+	b"[Errno 2] No such file or directory: 'D:\\\\git\\\\docinstapy\\\\umrahtravel.id\\\\InstaPy\\\\logs\\\\umrahtravel.id\\\\umrahtravel.id_followedPool.csv'"
+INFO [2020-09-29 01:39:07] [umrahtravel.id]  Unfollowing the users who do not follow back
+
+INFO [2020-09-29 01:39:07] [umrahtravel.id]  Retrieving live `Followers` data of umrahtravel.id at "full" range
+INFO [2020-09-29 01:39:24] [umrahtravel.id]  Grabbed 273 usernames from `Followers` in 14.11 seconds
+INFO [2020-09-29 01:39:24] [umrahtravel.id]  Stored `Followers` data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/followers/29-09-2020~full~273(1).json local file
+INFO [2020-09-29 01:39:24] [umrahtravel.id]  Zz :[ time to take a good nap  ~sleeping 30.0 seconds
+INFO [2020-09-29 01:39:53] [umrahtravel.id]  Yawn :] let's go!
+
+INFO [2020-09-29 01:39:53] [umrahtravel.id]  Retrieving live `Following` data of umrahtravel.id at "full" range
+INFO [2020-09-29 01:41:29] [umrahtravel.id]  Grabbed 1601 usernames from `Following` in 1.49 minutes
+INFO [2020-09-29 01:41:29] [umrahtravel.id]  Stored `Following` data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/following/29-09-2020~full~1601.json local file
+INFO [2020-09-29 01:41:29] [umrahtravel.id]  Zz :[ time to take a good nap  ~sleeping 3.3 minutes
+INFO [2020-09-29 01:45:09] [umrahtravel.id]  Yawn :] let's go!
+
+INFO [2020-09-29 01:45:09] [umrahtravel.id]  There are 1493 Nonfollowers of umrahtravel.id  ~the users umrahtravel.id is following WHO do not follow back
+
+INFO [2020-09-29 01:45:09] [umrahtravel.id]  Stored Nonfollowers data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/nonfollowers/29-09-2020~[273-1601]~1493.json local file
+
+INFO [2020-09-29 01:45:09] [umrahtravel.id]  Total 1493 users available to unfollow  ~not found in 'followedPool.csv': 1493  |  didn't pass `unfollow_after`: 0
+
+INFO [2020-09-29 01:45:09] [umrahtravel.id]  Ongoing Unfollow [1/20]: now unfollowing 'b'ryanaulia_27''...
+INFO [2020-09-29 01:45:45] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:45:45] [umrahtravel.id]  --> Unfollowed 'ryanaulia_27'!
+INFO [2020-09-29 01:45:55] [umrahtravel.id]  Ongoing Unfollow [2/20]: now unfollowing 'b'wiels_andi''...
+INFO [2020-09-29 01:46:31] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:46:31] [umrahtravel.id]  --> Unfollowed 'wiels_andi'!
+INFO [2020-09-29 01:46:44] [umrahtravel.id]  Ongoing Unfollow [3/20]: now unfollowing 'b'syem18_07''...
+INFO [2020-09-29 01:47:22] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:47:22] [umrahtravel.id]  --> Unfollowed 'syem18_07'!
+INFO [2020-09-29 01:47:30] [umrahtravel.id]  Ongoing Unfollow [4/20]: now unfollowing 'b'j.a.n.e_s''...
+INFO [2020-09-29 01:48:07] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:48:07] [umrahtravel.id]  --> Unfollowed 'j.a.n.e_s'!
+INFO [2020-09-29 01:48:18] [umrahtravel.id]  Ongoing Unfollow [5/20]: now unfollowing 'b'azkia_collections_''...
+INFO [2020-09-29 01:48:55] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:48:55] [umrahtravel.id]  --> Unfollowed 'azkia_collections_'!
+INFO [2020-09-29 01:49:07] [umrahtravel.id]  Ongoing Unfollow [6/20]: now unfollowing 'b'ffbrihdyat27''...
+INFO [2020-09-29 01:49:42] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:49:42] [umrahtravel.id]  --> Unfollowed 'ffbrihdyat27'!
+INFO [2020-09-29 01:49:53] [umrahtravel.id]  Ongoing Unfollow [7/20]: now unfollowing 'b'yukkytraffic''...
+INFO [2020-09-29 01:50:29] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:50:29] [umrahtravel.id]  --> Unfollowed 'yukkytraffic'!
+INFO [2020-09-29 01:50:40] [umrahtravel.id]  Ongoing Unfollow [8/20]: now unfollowing 'b'yusron.syf''...
+INFO [2020-09-29 01:51:16] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:51:16] [umrahtravel.id]  --> Unfollowed 'yusron.syf'!
+INFO [2020-09-29 01:51:27] [umrahtravel.id]  Ongoing Unfollow [9/20]: now unfollowing 'b'acepmiftah22''...
+INFO [2020-09-29 01:52:06] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:52:06] [umrahtravel.id]  --> Unfollowed 'acepmiftah22'!
+INFO [2020-09-29 01:52:17] [umrahtravel.id]  Ongoing Unfollow [10/20]: now unfollowing 'b'arahan_promil''...
+INFO [2020-09-29 01:52:52] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:52:52] [umrahtravel.id]  --> Unfollowed 'arahan_promil'!
+INFO [2020-09-29 01:53:01] [umrahtravel.id]  Unfollowed 10 new users  ~sleeping about 4.33 minutes
+
+INFO [2020-09-29 01:58:15] [umrahtravel.id]  Ongoing Unfollow [11/20]: now unfollowing 'b'eplrfk''...
+INFO [2020-09-29 01:58:55] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:58:55] [umrahtravel.id]  --> Unfollowed 'eplrfk'!
+INFO [2020-09-29 01:59:04] [umrahtravel.id]  Ongoing Unfollow [12/20]: now unfollowing 'b'arieafriansyah07''...
+INFO [2020-09-29 01:59:41] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 01:59:41] [umrahtravel.id]  --> Unfollowed 'arieafriansyah07'!
+INFO [2020-09-29 01:59:52] [umrahtravel.id]  Ongoing Unfollow [13/20]: now unfollowing 'b'supplement.supergrowup''...
+INFO [2020-09-29 02:00:28] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 02:00:28] [umrahtravel.id]  --> Unfollowed 'supplement.supergrowup'!
+INFO [2020-09-29 02:00:40] [umrahtravel.id]  Ongoing Unfollow [14/20]: now unfollowing 'b'irvansabana''...
+INFO [2020-09-29 02:01:19] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 02:01:19] [umrahtravel.id]  --> Unfollowed 'irvansabana'!
+INFO [2020-09-29 02:01:29] [umrahtravel.id]  Ongoing Unfollow [15/20]: now unfollowing 'b'bumbumcantik''...
+INFO [2020-09-29 02:02:06] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 02:02:06] [umrahtravel.id]  --> Unfollowed 'bumbumcantik'!
+INFO [2020-09-29 02:02:16] [umrahtravel.id]  Ongoing Unfollow [16/20]: now unfollowing 'b'dewiie_antasena''...
+INFO [2020-09-29 02:02:53] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 02:02:53] [umrahtravel.id]  --> Unfollowed 'dewiie_antasena'!
+INFO [2020-09-29 02:03:05] [umrahtravel.id]  Ongoing Unfollow [17/20]: now unfollowing 'b'anchafortunahoki''...
+INFO [2020-09-29 02:03:43] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 02:03:43] [umrahtravel.id]  --> Unfollowed 'anchafortunahoki'!
+INFO [2020-09-29 02:03:54] [umrahtravel.id]  Ongoing Unfollow [18/20]: now unfollowing 'b'aunillah25''...
+INFO [2020-09-29 02:04:33] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 02:04:33] [umrahtravel.id]  --> Unfollowed 'aunillah25'!
+INFO [2020-09-29 02:04:41] [umrahtravel.id]  Ongoing Unfollow [19/20]: now unfollowing 'b'thoriqff''...
+INFO [2020-09-29 02:05:19] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 02:05:19] [umrahtravel.id]  --> Unfollowed 'thoriqff'!
+INFO [2020-09-29 02:05:30] [umrahtravel.id]  Ongoing Unfollow [20/20]: now unfollowing 'b'nastya_chusi''...
+INFO [2020-09-29 02:06:06] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 02:06:06] [umrahtravel.id]  --> Unfollowed 'nastya_chusi'!
+WARNING [2020-09-29 02:06:17] [umrahtravel.id]  --> Total unfollows reached it's amount given 20
+
+INFO [2020-09-29 02:06:17] [umrahtravel.id]  --> Total people unfollowed : 20
+
+INFO [2020-09-29 02:06:19] [umrahtravel.id]  Sessional Live Report:
+	|> LIKED 0 images  |  ALREADY LIKED: 0
+	|> COMMENTED on 0 images
+	|> FOLLOWED 0 users  |  ALREADY FOLLOWED: 0
+	|> UNFOLLOWED 20 users
+	|> LIKED 0 comments
+	|> REPLIED to 0 comments
+	|> INAPPROPRIATE images: 0
+	|> NOT VALID users: 0
+	|> WATCHED 0 story(ies)  |  WATCHED 0 reel(s)
+
+On session start was FOLLOWING 1602 users & had 273 FOLLOWERS
+[Session lasted 27.95 minutes]
+INFO [2020-09-29 02:06:19] [umrahtravel.id]  Session ended!
+INFO [2020-09-29 03:06:19] [umrahtravel.id]  Workspace in use: "D:/git/docinstapy/umrahtravel.id/InstaPy"
+INFO [2020-09-29 03:06:27] [umrahtravel.id]  Session started!
+INFO [2020-09-29 03:06:27] [umrahtravel.id]  Quota Supervisor: just updated hourly peak rates in stochastic probablity!
+INFO [2020-09-29 03:06:27] [umrahtravel.id]  -- Connection Checklist [1/2] (Internet Connection Status)
+INFO [2020-09-29 03:06:30] [umrahtravel.id]  - Internet Connection Status: ok
+INFO [2020-09-29 03:06:30] [umrahtravel.id]  - Current IP is "180.244.235.249" and it's from "Indonesia/ID"
+INFO [2020-09-29 03:06:30] [umrahtravel.id]  -- Connection Checklist [2/2] (Hide Selenium Extension)
+INFO [2020-09-29 03:06:30] [umrahtravel.id]  - window.navigator.webdriver response: None
+INFO [2020-09-29 03:06:30] [umrahtravel.id]  - Hide Selenium Extension: ok
+INFO [2020-09-29 03:06:43] [umrahtravel.id]  Sessional Live Report:
+	|> No any statistics to show
+
+
+[Session lasted 23.97 seconds]
+INFO [2020-09-29 03:06:43] [umrahtravel.id]  Session ended!
+INFO [2020-09-29 03:07:43] [umrahtravel.id]  Workspace in use: "D:/git/docinstapy/umrahtravel.id/InstaPy"
+INFO [2020-09-29 03:07:51] [umrahtravel.id]  Session started!
+INFO [2020-09-29 03:07:51] [umrahtravel.id]  -- Connection Checklist [1/2] (Internet Connection Status)
+INFO [2020-09-29 03:07:53] [umrahtravel.id]  - Internet Connection Status: ok
+INFO [2020-09-29 03:07:53] [umrahtravel.id]  - Current IP is "180.244.235.249" and it's from "Indonesia/ID"
+INFO [2020-09-29 03:07:53] [umrahtravel.id]  -- Connection Checklist [2/2] (Hide Selenium Extension)
+INFO [2020-09-29 03:07:53] [umrahtravel.id]  - window.navigator.webdriver response: None
+INFO [2020-09-29 03:07:53] [umrahtravel.id]  - Hide Selenium Extension: ok
+INFO [2020-09-29 03:08:11] [umrahtravel.id]  Logged in successfully!
+INFO [2020-09-29 03:08:11] [umrahtravel.id]  Saving account progress...
+INFO [2020-09-29 03:08:27] [umrahtravel.id]  Starting to unfollow users..
+ERROR [2020-09-29 03:08:27] [umrahtravel.id]  Error occurred while generating a user list from the followed pool!
+	b"[Errno 2] No such file or directory: 'D:\\\\git\\\\docinstapy\\\\umrahtravel.id\\\\InstaPy\\\\logs\\\\umrahtravel.id\\\\umrahtravel.id_followedPool.csv'"
+INFO [2020-09-29 03:08:27] [umrahtravel.id]  Unfollowing the users who do not follow back
+
+INFO [2020-09-29 03:08:27] [umrahtravel.id]  Retrieving live `Followers` data of umrahtravel.id at "full" range
+INFO [2020-09-29 03:08:45] [umrahtravel.id]  Grabbed 273 usernames from `Followers` in 14.91 seconds
+INFO [2020-09-29 03:08:45] [umrahtravel.id]  Stored `Followers` data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/followers/29-09-2020~full~273(2).json local file
+INFO [2020-09-29 03:08:45] [umrahtravel.id]  Zz :[ time to take a good nap  ~sleeping 30.0 seconds
+INFO [2020-09-29 03:09:21] [umrahtravel.id]  Yawn :] let's go!
+
+INFO [2020-09-29 03:09:21] [umrahtravel.id]  Retrieving live `Following` data of umrahtravel.id at "full" range
+INFO [2020-09-29 03:10:50] [umrahtravel.id]  Grabbed 1581 usernames from `Following` in 1.38 minutes
+INFO [2020-09-29 03:10:50] [umrahtravel.id]  Stored `Following` data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/following/29-09-2020~full~1581.json local file
+INFO [2020-09-29 03:10:50] [umrahtravel.id]  Zz :[ time to take a good nap  ~sleeping 3.2 minutes
+INFO [2020-09-29 03:14:00] [umrahtravel.id]  Yawn :] let's go!
+
+INFO [2020-09-29 03:14:00] [umrahtravel.id]  There are 1473 Nonfollowers of umrahtravel.id  ~the users umrahtravel.id is following WHO do not follow back
+
+INFO [2020-09-29 03:14:00] [umrahtravel.id]  Stored Nonfollowers data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/nonfollowers/29-09-2020~[273-1581]~1473.json local file
+
+INFO [2020-09-29 03:14:00] [umrahtravel.id]  Total 1473 users available to unfollow  ~not found in 'followedPool.csv': 1473  |  didn't pass `unfollow_after`: 0
+
+INFO [2020-09-29 03:14:00] [umrahtravel.id]  Ongoing Unfollow [1/20]: now unfollowing 'b'teungkusyahrulramadhan''...
+INFO [2020-09-29 03:14:37] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:14:37] [umrahtravel.id]  --> Unfollowed 'teungkusyahrulramadhan'!
+INFO [2020-09-29 03:14:52] [umrahtravel.id]  Ongoing Unfollow [2/20]: now unfollowing 'b'waanabihi''...
+INFO [2020-09-29 03:15:28] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:15:28] [umrahtravel.id]  --> Unfollowed 'waanabihi'!
+INFO [2020-09-29 03:15:38] [umrahtravel.id]  Ongoing Unfollow [3/20]: now unfollowing 'b'anita_febriyanti_ita''...
+INFO [2020-09-29 03:16:13] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:16:13] [umrahtravel.id]  --> Unfollowed 'anita_febriyanti_ita'!
+INFO [2020-09-29 03:16:26] [umrahtravel.id]  Ongoing Unfollow [4/20]: now unfollowing 'b'shmzxx''...
+INFO [2020-09-29 03:17:02] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:17:02] [umrahtravel.id]  --> Unfollowed 'shmzxx'!
+INFO [2020-09-29 03:17:11] [umrahtravel.id]  Ongoing Unfollow [5/20]: now unfollowing 'b'irfanbahtiar''...
+INFO [2020-09-29 03:17:49] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:17:49] [umrahtravel.id]  --> Unfollowed 'irfanbahtiar'!
+INFO [2020-09-29 03:18:01] [umrahtravel.id]  Ongoing Unfollow [6/20]: now unfollowing 'b'mujiyembni''...
+INFO [2020-09-29 03:18:39] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:18:39] [umrahtravel.id]  --> Unfollowed 'mujiyembni'!
+INFO [2020-09-29 03:18:52] [umrahtravel.id]  Ongoing Unfollow [7/20]: now unfollowing 'b'alvnrhmn''...
+INFO [2020-09-29 03:19:34] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:19:34] [umrahtravel.id]  --> Unfollowed 'alvnrhmn'!
+INFO [2020-09-29 03:19:46] [umrahtravel.id]  Ongoing Unfollow [8/20]: now unfollowing 'b'aldositopu86''...
+INFO [2020-09-29 03:20:22] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:20:22] [umrahtravel.id]  --> Unfollowed 'aldositopu86'!
+INFO [2020-09-29 03:20:32] [umrahtravel.id]  Unfollowed 8 new users  ~sleeping about 4.5 minutes
+
+INFO [2020-09-29 03:26:04] [umrahtravel.id]  Ongoing Unfollow [9/20]: now unfollowing 'b'febrianadit18''...
+INFO [2020-09-29 03:26:38] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:26:38] [umrahtravel.id]  --> Unfollowed 'febrianadit18'!
+INFO [2020-09-29 03:26:50] [umrahtravel.id]  Ongoing Unfollow [10/20]: now unfollowing 'b'fafaa11_''...
+INFO [2020-09-29 03:27:27] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:27:27] [umrahtravel.id]  --> Unfollowed 'fafaa11_'!
+INFO [2020-09-29 03:27:39] [umrahtravel.id]  Ongoing Unfollow [11/20]: now unfollowing 'b'muhindin123''...
+INFO [2020-09-29 03:28:16] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:28:16] [umrahtravel.id]  --> Unfollowed 'muhindin123'!
+INFO [2020-09-29 03:28:26] [umrahtravel.id]  Ongoing Unfollow [12/20]: now unfollowing 'b'nurulawaliah___''...
+INFO [2020-09-29 03:29:03] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:29:03] [umrahtravel.id]  --> Unfollowed 'nurulawaliah___'!
+INFO [2020-09-29 03:29:14] [umrahtravel.id]  Ongoing Unfollow [13/20]: now unfollowing 'b'kang_santri313''...
+INFO [2020-09-29 03:29:52] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:29:52] [umrahtravel.id]  --> Unfollowed 'kang_santri313'!
+INFO [2020-09-29 03:30:07] [umrahtravel.id]  Ongoing Unfollow [14/20]: now unfollowing 'b'asad.arifinspd''...
+INFO [2020-09-29 03:30:42] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:30:42] [umrahtravel.id]  --> Unfollowed 'asad.arifinspd'!
+INFO [2020-09-29 03:30:55] [umrahtravel.id]  Ongoing Unfollow [15/20]: now unfollowing 'b'sariputori''...
+INFO [2020-09-29 03:31:33] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:31:33] [umrahtravel.id]  --> Unfollowed 'sariputori'!
+INFO [2020-09-29 03:31:41] [umrahtravel.id]  Ongoing Unfollow [16/20]: now unfollowing 'b'wahyuaji_irhawan''...
+INFO [2020-09-29 03:32:17] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:32:17] [umrahtravel.id]  --> Unfollowed 'wahyuaji_irhawan'!
+INFO [2020-09-29 03:32:28] [umrahtravel.id]  Ongoing Unfollow [17/20]: now unfollowing 'b'anastasyasimorangkir''...
+INFO [2020-09-29 03:33:06] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:33:06] [umrahtravel.id]  --> Unfollowed 'anastasyasimorangkir'!
+INFO [2020-09-29 03:33:19] [umrahtravel.id]  Ongoing Unfollow [18/20]: now unfollowing 'b'andiadhye86''...
+INFO [2020-09-29 03:33:57] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:33:57] [umrahtravel.id]  --> Unfollowed 'andiadhye86'!
+INFO [2020-09-29 03:34:06] [umrahtravel.id]  Ongoing Unfollow [19/20]: now unfollowing 'b'ramadhani.1717''...
+INFO [2020-09-29 03:34:42] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:34:42] [umrahtravel.id]  --> Unfollowed 'ramadhani.1717'!
+INFO [2020-09-29 03:34:52] [umrahtravel.id]  Ongoing Unfollow [20/20]: now unfollowing 'b'4uni4rissa''...
+INFO [2020-09-29 03:35:28] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 03:35:28] [umrahtravel.id]  --> Unfollowed '4uni4rissa'!
+WARNING [2020-09-29 03:35:39] [umrahtravel.id]  --> Total unfollows reached it's amount given 20
+
+INFO [2020-09-29 03:35:39] [umrahtravel.id]  --> Total people unfollowed : 20
+
+INFO [2020-09-29 03:35:41] [umrahtravel.id]  Sessional Live Report:
+	|> LIKED 0 images  |  ALREADY LIKED: 0
+	|> COMMENTED on 0 images
+	|> FOLLOWED 0 users  |  ALREADY FOLLOWED: 0
+	|> UNFOLLOWED 20 users
+	|> LIKED 0 comments
+	|> REPLIED to 0 comments
+	|> INAPPROPRIATE images: 0
+	|> NOT VALID users: 0
+	|> WATCHED 0 story(ies)  |  WATCHED 0 reel(s)
+
+On session start was FOLLOWING 1582 users & had 273 FOLLOWERS
+[Session lasted 27.96 minutes]
+INFO [2020-09-29 03:35:41] [umrahtravel.id]  Session ended!
+INFO [2020-09-29 04:35:41] [umrahtravel.id]  Workspace in use: "D:/git/docinstapy/umrahtravel.id/InstaPy"
+INFO [2020-09-29 04:35:49] [umrahtravel.id]  Session started!
+INFO [2020-09-29 04:35:49] [umrahtravel.id]  Quota Supervisor: just updated hourly peak rates in stochastic probablity!
+INFO [2020-09-29 04:35:49] [umrahtravel.id]  -- Connection Checklist [1/2] (Internet Connection Status)
+INFO [2020-09-29 04:35:51] [umrahtravel.id]  - Internet Connection Status: ok
+INFO [2020-09-29 04:35:51] [umrahtravel.id]  - Current IP is "180.244.235.249" and it's from "Indonesia/ID"
+INFO [2020-09-29 04:35:51] [umrahtravel.id]  -- Connection Checklist [2/2] (Hide Selenium Extension)
+INFO [2020-09-29 04:35:51] [umrahtravel.id]  - window.navigator.webdriver response: None
+INFO [2020-09-29 04:35:51] [umrahtravel.id]  - Hide Selenium Extension: ok
+INFO [2020-09-29 04:36:09] [umrahtravel.id]  Logged in successfully!
+INFO [2020-09-29 04:36:09] [umrahtravel.id]  Saving account progress...
+INFO [2020-09-29 04:36:23] [umrahtravel.id]  Starting to unfollow users..
+ERROR [2020-09-29 04:36:23] [umrahtravel.id]  Error occurred while generating a user list from the followed pool!
+	b"[Errno 2] No such file or directory: 'D:\\\\git\\\\docinstapy\\\\umrahtravel.id\\\\InstaPy\\\\logs\\\\umrahtravel.id\\\\umrahtravel.id_followedPool.csv'"
+INFO [2020-09-29 04:36:23] [umrahtravel.id]  Unfollowing the users who do not follow back
+
+INFO [2020-09-29 04:36:23] [umrahtravel.id]  Retrieving live `Followers` data of umrahtravel.id at "full" range
+INFO [2020-09-29 04:36:38] [umrahtravel.id]  Grabbed 273 usernames from `Followers` in 12.53 seconds
+INFO [2020-09-29 04:36:38] [umrahtravel.id]  Stored `Followers` data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/followers/29-09-2020~full~273(3).json local file
+INFO [2020-09-29 04:36:38] [umrahtravel.id]  Zz :[ time to take a good nap  ~sleeping 30.0 seconds
+INFO [2020-09-29 04:37:12] [umrahtravel.id]  Yawn :] let's go!
+
+INFO [2020-09-29 04:37:12] [umrahtravel.id]  Retrieving live `Following` data of umrahtravel.id at "full" range
+INFO [2020-09-29 04:38:48] [umrahtravel.id]  Grabbed 1561 usernames from `Following` in 1.49 minutes
+INFO [2020-09-29 04:38:48] [umrahtravel.id]  Stored `Following` data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/following/29-09-2020~full~1561.json local file
+INFO [2020-09-29 04:38:48] [umrahtravel.id]  Zz :[ time to take a good nap  ~sleeping 3.2 minutes
+INFO [2020-09-29 04:42:32] [umrahtravel.id]  Yawn :] let's go!
+
+INFO [2020-09-29 04:42:32] [umrahtravel.id]  There are 1453 Nonfollowers of umrahtravel.id  ~the users umrahtravel.id is following WHO do not follow back
+
+INFO [2020-09-29 04:42:32] [umrahtravel.id]  Stored Nonfollowers data at D:\git\docinstapy\umrahtravel.id\InstaPy\logs\umrahtravel.id\/relationship_data/umrahtravel.id/nonfollowers/29-09-2020~[273-1561]~1453.json local file
+
+INFO [2020-09-29 04:42:32] [umrahtravel.id]  Total 1453 users available to unfollow  ~not found in 'followedPool.csv': 1453  |  didn't pass `unfollow_after`: 0
+
+INFO [2020-09-29 04:42:32] [umrahtravel.id]  Ongoing Unfollow [1/20]: now unfollowing 'b'pipitmakeover''...
+INFO [2020-09-29 04:43:10] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:43:10] [umrahtravel.id]  --> Unfollowed 'pipitmakeover'!
+INFO [2020-09-29 04:43:20] [umrahtravel.id]  Ongoing Unfollow [2/20]: now unfollowing 'b'hyun56728''...
+INFO [2020-09-29 04:43:56] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:43:56] [umrahtravel.id]  --> Unfollowed 'hyun56728'!
+INFO [2020-09-29 04:44:06] [umrahtravel.id]  Ongoing Unfollow [3/20]: now unfollowing 'b'ha_haddawi''...
+INFO [2020-09-29 04:44:44] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:44:44] [umrahtravel.id]  --> Unfollowed 'ha_haddawi'!
+INFO [2020-09-29 04:44:53] [umrahtravel.id]  Ongoing Unfollow [4/20]: now unfollowing 'b'yohandasaputraa''...
+INFO [2020-09-29 04:45:30] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:45:30] [umrahtravel.id]  --> Unfollowed 'yohandasaputraa'!
+INFO [2020-09-29 04:45:40] [umrahtravel.id]  Ongoing Unfollow [5/20]: now unfollowing 'b'ayuagustyanti''...
+INFO [2020-09-29 04:46:19] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:46:19] [umrahtravel.id]  --> Unfollowed 'ayuagustyanti'!
+INFO [2020-09-29 04:46:29] [umrahtravel.id]  Ongoing Unfollow [6/20]: now unfollowing 'b'ucrublalih''...
+INFO [2020-09-29 04:47:05] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:47:05] [umrahtravel.id]  --> Unfollowed 'ucrublalih'!
+INFO [2020-09-29 04:47:19] [umrahtravel.id]  Ongoing Unfollow [7/20]: now unfollowing 'b'jakbeut''...
+INFO [2020-09-29 04:47:58] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:47:58] [umrahtravel.id]  --> Unfollowed 'jakbeut'!
+INFO [2020-09-29 04:48:05] [umrahtravel.id]  Ongoing Unfollow [8/20]: now unfollowing 'b'aden_uj''...
+INFO [2020-09-29 04:48:41] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:48:41] [umrahtravel.id]  --> Unfollowed 'aden_uj'!
+INFO [2020-09-29 04:48:50] [umrahtravel.id]  Ongoing Unfollow [9/20]: now unfollowing 'b'hezbull_''...
+INFO [2020-09-29 04:49:28] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:49:28] [umrahtravel.id]  --> Unfollowed 'hezbull_'!
+INFO [2020-09-29 04:49:39] [umrahtravel.id]  Ongoing Unfollow [10/20]: now unfollowing 'b'aryantydiamond''...
+INFO [2020-09-29 04:50:17] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:50:17] [umrahtravel.id]  --> Unfollowed 'aryantydiamond'!
+INFO [2020-09-29 04:50:27] [umrahtravel.id]  Ongoing Unfollow [11/20]: now unfollowing 'b'awgalleryy''...
+INFO [2020-09-29 04:51:02] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:51:02] [umrahtravel.id]  --> Unfollowed 'awgalleryy'!
+INFO [2020-09-29 04:51:12] [umrahtravel.id]  Unfollowed 11 new users  ~sleeping about 4.95 minutes
+
+INFO [2020-09-29 04:56:23] [umrahtravel.id]  Ongoing Unfollow [12/20]: now unfollowing 'b'kuliner_asikpurwokerto''...
+INFO [2020-09-29 04:57:01] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:57:01] [umrahtravel.id]  --> Unfollowed 'kuliner_asikpurwokerto'!
+INFO [2020-09-29 04:57:10] [umrahtravel.id]  Ongoing Unfollow [13/20]: now unfollowing 'b'mqspublishing''...
+INFO [2020-09-29 04:57:53] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:57:53] [umrahtravel.id]  --> Unfollowed 'mqspublishing'!
+INFO [2020-09-29 04:58:03] [umrahtravel.id]  Ongoing Unfollow [14/20]: now unfollowing 'b'grosirhijabfakhry''...
+INFO [2020-09-29 04:58:40] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:58:40] [umrahtravel.id]  --> Unfollowed 'grosirhijabfakhry'!
+INFO [2020-09-29 04:58:48] [umrahtravel.id]  Ongoing Unfollow [15/20]: now unfollowing 'b'yakinhijrah_official''...
+INFO [2020-09-29 04:59:31] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 04:59:31] [umrahtravel.id]  --> Unfollowed 'yakinhijrah_official'!
+INFO [2020-09-29 04:59:41] [umrahtravel.id]  Ongoing Unfollow [16/20]: now unfollowing 'b'rizkytape''...
+INFO [2020-09-29 05:00:18] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 05:00:18] [umrahtravel.id]  --> Unfollowed 'rizkytape'!
+INFO [2020-09-29 05:00:27] [umrahtravel.id]  Ongoing Unfollow [17/20]: now unfollowing 'b'maidacraft''...
+INFO [2020-09-29 05:01:05] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 05:01:05] [umrahtravel.id]  --> Unfollowed 'maidacraft'!
+INFO [2020-09-29 05:01:16] [umrahtravel.id]  Ongoing Unfollow [18/20]: now unfollowing 'b'888rumahidaman''...
+INFO [2020-09-29 05:01:54] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 05:01:54] [umrahtravel.id]  --> Unfollowed '888rumahidaman'!
+INFO [2020-09-29 05:02:05] [umrahtravel.id]  Ongoing Unfollow [19/20]: now unfollowing 'b'rikobudisantoso''...
+INFO [2020-09-29 05:02:42] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 05:02:42] [umrahtravel.id]  --> Unfollowed 'rikobudisantoso'!
+INFO [2020-09-29 05:02:51] [umrahtravel.id]  Ongoing Unfollow [20/20]: now unfollowing 'b'nurrizkyfadilla_''...
+INFO [2020-09-29 05:03:29] [umrahtravel.id]  Last unfollow is verified after reloading the page!
+INFO [2020-09-29 05:03:29] [umrahtravel.id]  --> Unfollowed 'nurrizkyfadilla_'!
+WARNING [2020-09-29 05:03:38] [umrahtravel.id]  --> Total unfollows reached it's amount given 20
+
+INFO [2020-09-29 05:03:38] [umrahtravel.id]  --> Total people unfollowed : 20
+
+INFO [2020-09-29 05:03:41] [umrahtravel.id]  Sessional Live Report:
+	|> LIKED 0 images  |  ALREADY LIKED: 0
+	|> COMMENTED on 0 images
+	|> FOLLOWED 0 users  |  ALREADY FOLLOWED: 0
+	|> UNFOLLOWED 20 users
+	|> LIKED 0 comments
+	|> REPLIED to 0 comments
+	|> INAPPROPRIATE images: 0
+	|> NOT VALID users: 0
+	|> WATCHED 0 story(ies)  |  WATCHED 0 reel(s)
+
+On session start was FOLLOWING 1562 users & had 273 FOLLOWERS
+[Session lasted 27.99 minutes]
+INFO [2020-09-29 05:03:41] [umrahtravel.id]  Session ended!
